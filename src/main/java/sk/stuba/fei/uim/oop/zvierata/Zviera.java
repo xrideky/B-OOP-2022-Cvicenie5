@@ -13,4 +13,8 @@ public abstract class Zviera {
         System.out.println(this.meno + " bol pohladkany");
         this.zvukZvierata();
     }
+
+    public String getMeno() {
+        return meno;
+    }
 }
